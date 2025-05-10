@@ -62,11 +62,10 @@ const Projects = () => {
             <HeaderOfSection NameOfSection={'Projects'} icon={<LiaLaptopCodeSolid />} />
             <div className='flex flex-col gap-y-[50px]'>
                 {
-                    Projects.map((singleProject) => (
-                        <ProjectCard information={singleProject} />
+                    Projects.map((singleProject,i) => (
+                        <ProjectCard information={singleProject} key={i} />
                     ))
                 }
-                {/* <ProjectCard NameOfProject={'Seven'} ProjectType={'Frontend'} Technologies={['HTML', 'CSS', 'Java Script']} ProjectPictures={Project2Pictures()} TitleColor={'text-red-500'} /> */}
             </div>
 
         </div>

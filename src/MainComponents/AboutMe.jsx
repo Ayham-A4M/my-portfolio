@@ -2,7 +2,7 @@
 import HeaderOfSection from './HeaderOfSection'
 import pic from '../assets/gif/developer2.gif'
 
-import InformationAboutMe from '../Componentss/informationAboutMe'
+import InformationAboutMe from '../Componentss/InformationAboutMe'
 import { FaFeatherAlt } from "react-icons/fa";
 const information = [
     { title: 'Email :', value: 'ayham10.aboajeb@gmail.com' },

@@ -1,0 +1,83 @@
+.pingpong:nth-of-type(1){
+    animation:pingpongAnimation1 linear infinite 77s alternate;
+}
+.pingpong:nth-of-type(2){
+    animation:pingpongAnimation2 linear infinite 71s alternate;
+}
+.pingpong:nth-of-type(3){
+    animation:pingpongAnimation3 linear infinite 66s alternate;
+    transform: rotate(10deg);
+}
+.pingpong:nth-of-type(4){
+    animation:pingpongAnimation4 linear infinite 85s alternate;
+}
+.pingpong:nth-of-type(5){
+    animation:pingpongAnimation5 linear infinite 72s alternate;
+}
+.pingpong:nth-of-type(6){
+    animation:pingpongAnimation6 linear infinite 51s alternate;
+}
+.pingpong:nth-of-type(7){
+    animation:pingpongAnimation7 linear infinite 75s alternate;
+}
+.pingpong:nth-of-type(8){
+    animation:pingpongAnimation8 linear infinite 62s alternate;
+}
+.pingpong:nth-of-type(9){
+    animation:pingpongAnimation9 linear infinite 79s alternate;
+}
+@keyframes pingpongAnimation1{
+    25%{top:0; left:20%;}
+    50%{top:95%; left:25%;}
+    75%{top:0;left:40%;}
+    100%{top:95%; left:55%;}
+}
+@keyframes pingpongAnimation2{
+    25%{top:0; left:70%;}
+    50%{top:95%; left:80%;}
+    75%{top:0;left:90%;}
+    100%{top:60%; left:98%;} 
+    /* to touch the right side 98% bottom 95% */
+}
+@keyframes pingpongAnimation3{
+    25%{top:0; left:20%;}
+    50%{top:95%; left:47%;}
+    75%{top:68%;right:0%;}
+    100%{top:95%; left:55%;}
+}
+@keyframes pingpongAnimation4{
+    25%{top:0; left:33%;}
+    50%{top:74%; left:0%;}
+    75%{top:95%;left:76%;}
+    100%{top:44%; left:98%;}
+}
+@keyframes pingpongAnimation5{
+    25%{top:85%; left:0%;}
+    50%{top:95%; left:15%;}
+    75%{top:55%;left:98%;}
+    100%{top:0%; left:64%;}
+}
+@keyframes pingpongAnimation6{
+    25%{top:0%; left:64%;}
+    50%{top:95%; left:82%;}
+    75%{top:52%;left:98%;}
+    100%{top:0%; left:34%;}
+}
+@keyframes pingpongAnimation7{
+    25%{top:62%; left:98%;}
+    50%{top:0%; left:78%;}
+    75%{top:64%;left:0%;}
+    100%{top:95%; left:46%;}
+}
+@keyframes pingpongAnimation8{
+    25%{top:23%; left:0%;}
+    50%{top:0%; left:62%;}
+    75%{top:74%;left:98%;}
+    100%{top:95%; left:46%;}
+}
+@keyframes pingpongAnimation9{
+    25%{top:22%; left:0%;}
+    50%{top:0%; left:18%;}
+    75%{top:73%;left:98%;}
+    100%{top:95%; left:47%;}
+}

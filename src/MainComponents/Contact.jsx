@@ -1,8 +1,9 @@
-
-
+import HeaderOfSection from "./HeaderOfSection"
+import { BiMessageDots } from "react-icons/bi";
 const Contact = () => {
     return (
-        <div id="contact" className="min-h-screen flex items-center justify-center w-[95%]">
+        <div id="contact" className="min-h-screen flex flex-col gap-[50px] items-center justify-center w-[95%]">
+             <HeaderOfSection NameOfSection={'Contact with me'} icon={<BiMessageDots/>} />
             <form action="https://formsubmit.co/ayham10.aboajeb@gmail.com"    method="POST" className="flex flex-col gap-[30px] max-w-[1000px] rounded-[6px] w-full p-3 bg-blue-100/10 backdrop-blur-md">
             
                 <input type="text" name="Name" placeholder="Name" className="bg-slate-300  py-2 pl-2 outline-none rounded-[8px] border-2 border-[#2467af] w-full" />

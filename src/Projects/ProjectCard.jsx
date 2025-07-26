@@ -42,7 +42,7 @@ const ProjectCard = ({ information }) => {
                         <h1 className={`${information.TitleColor} font-bold font-sans text-4xl`}>{information.NameOfProject}</h1>
                         <div className='w-fit rounded-[6px] p-3 bg-slate-400/20 text-slate-200  font-semibold text-[18px]'>
                             <h1>{information.ProjectType}</h1>
-                            <div className='flex gap-2'>
+                            <div className='flex flex-wrap gap-2'>
                                 {
                                     information.Technologies &&
                                     information.Technologies.map((element, i) => (
@@ -91,7 +91,7 @@ const ProjectCard = ({ information }) => {
                         <h1 className={`${information.TitleColor} font-bold font-sans text-4xl`}>{information.NameOfProject}</h1>
                         <div className='w-fit rounded-[6px] p-3 bg-slate-400/20 text-slate-200  font-semibold text-[18px]'>
                             <h1>{information.ProjectType}</h1>
-                            <div className='flex gap-2'>
+                            <div className='flex gap-2 flex-wrap'>
                                 {
                                     information.Technologies &&
                                     information.Technologies.map((element, i) => (
